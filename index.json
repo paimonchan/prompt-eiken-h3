@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-09-07T07:28:59.505160Z",
+  "count": 1,
+  "entries": [
+    {
+      "slug": "experiments-001-art-to-life-prompt",
+      "path": "experiments/001-art-to-life/prompt.md",
+      "url": "https://github.com/paimonchan/prompt-eiken-h3/blob/main/experiments/001-art-to-life/prompt.md",
+      "title": "Art to Life — Manhwa Character Breathing Animation (Loopable)",
+      "mode": "fl2va",
+      "type": "i2va",
+      "ver": 1,
+      "date": "2026-09-07",
+      "seed": null,
+      "steps": 20,
+      "duration": 6,
+      "ratio": "9:16",
+      "resolution": "2K",
+      "tags": [
+        "i2va",
+        "manhwa",
+        "loop",
+        "subtle-motion",
+        "single-shot",
+        "no-cut"
+      ],
+      "status": "draft"
+    }
+  ]
+}

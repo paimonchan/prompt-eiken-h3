@@ -7,8 +7,8 @@ date: 2026-09-07
 seed: null
 steps: 20
 duration: 6
-ratio: "9:16"
-resolution: "2K"
+ratio: 9:16
+resolution: 2K
 tags: [i2va, manhwa, loop, subtle-motion, single-shot, no-cut]
 status: draft
 ---

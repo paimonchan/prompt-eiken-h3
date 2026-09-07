@@ -1,0 +1,17 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "t2va", "i2va", "fl2va", "l2va", "ref2va",
+    "refva", "r2v", "r2va", "t2v", "i2v", "fl2v",
+    "manhwa", "cel",
+    "soundscape", "diegetic",
+    "minimax", "hailuo", "comfyui",
+    "frontmatter"
+  ],
+  "ignorePaths": [
+    "node_modules",
+    "package-lock.json",
+    "*.min.js"
+  ]
+}
