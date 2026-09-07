@@ -4,6 +4,51 @@ Prompt design & experimentation repository for **MiniMax H3** — T2V, FL2V, and
 
 > Murni prompt. No ComfyUI workflow, no model config.
 
+## Website
+
+Katalog web mencakup pencarian isi prompt dan catatan, filter mode/status/tag,
+favorit lokal, detail per bagian, salin prompt, unduh Markdown, dan panduan.
+Tema terang/gelap serta favorit tersimpan di browser. Filter dan detail menggunakan
+URL hash sehingga tautan bisa dibagikan tanpa konfigurasi routing server.
+
+### Development
+
+```bash
+python -m pip install -r requirements.txt
+npm install
+python scripts/generate-index.py
+npm run dev
+```
+
+Jalankan `python scripts/generate-index.py --watch` di terminal lain ketika
+mengedit prompt. Refresh halaman untuk membaca indeks terbaru.
+
+```bash
+npm test
+python -m unittest discover -s tests -p "test_*.py"
+npm run build
+```
+
+`index.json` adalah satu-satunya sumber data situs: metadata, isi prompt, catatan,
+dan panduan. Template tetap tersedia di repository. Output produksi ada di `dist/`. Build menggunakan URL aset
+relatif agar mendukung GitHub Pages di subpath repository.
+
+### GitHub Pages
+
+Di repository GitHub, buka **Settings > Pages > Build and deployment > Source**
+dan pilih **GitHub Actions**. Push ke branch `master` akan menjalankan workflow
+`.github/workflows/pages.yml`: validasi, regenerasi indeks, build, dan deploy.
+Alamat yang dituju: https://paimonchan.github.io/prompt-eiken-h3/.
+
+Situs tidak memerlukan API key atau backend. Font DM Sans dan IBM Plex Mono
+disertakan lokal melalui Fontsource; foto clapperboard dekoratif dari
+[Unsplash](https://images.unsplash.com/photo-1485846234645-a62644f84728) juga disimpan lokal.
+Isi prompt tetap dari repository.
+
+Pengujian browser lokal: jalankan dev server, lalu `node tests/browser.mjs`.
+Pengujian ini memakai Microsoft Edge melalui Playwright dan menyimpan screenshot
+desktop/mobile di `test-results/`.
+
 ## Structure
 
 ```
