@@ -37,3 +37,4 @@ Tag system untuk nyari prompt cepat via grep.
 ## Experiments
 
 - [002 - Nahida Cafe](experiments/002-nahida-cafe/ref2va_nahida_cafe_v1.md): `@ref2va`, `@motion`, `@nahida`, `@cafe`, `@mixed-media`, `@sharing-food`
+- [002 v2 - Nahida Promenade (working)](experiments/002-nahida-cafe/ref2va_nahida_cafe_v2.md): `@ref2va`, `@nahida`, `@promenade`, `@front-facing`, `@multi-shot`, `@japanese-dialogue`, `@working`
