@@ -66,6 +66,10 @@ prompt-eiken-h3/
 │       ├── motion/
 │       ├── manhwa/
 │       └── pov/
+│           └── <nama-prompt>/
+│               ├── prompt.md   ← prompt mentah + frontmatter
+│               └── notes.md    ← konteks, konfigurasi, sumber
+├── reference/       ← Blok identitas/subject yang dipakai ulang (tidak masuk katalog web)
 ├── guides/          ← Official prompt rules
 ├── templates/       ← Skeleton prompt per mode
 ├── TAGS.md          ← Cross-reference tag index
@@ -99,4 +103,9 @@ tags: [cinematic, character]
 ---
 ```
 
-Naming: `<mode>_<descriptor>_v<N>.md`
+Naming: `<mode>_<descriptor>_v<N>.md` (di dalam folder per prompt), atau `prompt.md`.
+
+Isi file prompt = frontmatter + **prompt mentah** tanpa pagar kode atau basa-basi,
+supaya `src/catalog.js` bisa memecahnya per section (`subject_definitions:`,
+`summary:`, dst). Catatan/konteks ditaruh di `notes.md` sebagai sibling, bukan di
+dalam file prompt.
