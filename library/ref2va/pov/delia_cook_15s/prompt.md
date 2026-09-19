@@ -5,7 +5,7 @@ type: pov
 ver: 1
 date: 2026-09-12
 status: working
-seed: 688612808118544
+seed: null
 steps: 8
 duration: 15.08
 ratio: "9:16"

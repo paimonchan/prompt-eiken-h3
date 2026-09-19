@@ -54,3 +54,9 @@ dan ganti sampler ke `res_multistep`.
 
 - Workflow: `eikei-plan/custom/workflows/mv_15s/h3_r2v_pov_delia_cook_15s_turbo.json`
 - Builder: `eikei-plan/custom/scripts/build_mv_delia_cook_01.py`
+
+## Catatan seed
+
+`seed: null` disengaja — di workflow `RandomNoise` terisi `688612808118544`
+tapi `control_mode` = `randomize`, jadi seed aktual berubah tiap run. Nilai itu
+cuma default widget, bukan seed yang dipakai.

@@ -27,7 +27,11 @@ Tag system untuk nyari prompt cepat via grep.
 - `@keyframe-completion` — Pakai frame akhir clip sebelumnya sebagai anchor
 - `@cooking` — Cooking / food theme
 - `@vertical` — 9:16 portrait (TikTok/Reels/Shorts)
+- `@landscape` — 16:9 widescreen (sinematik)
 - `@loop` — Designed buat seamless loop
+- `@battle` — Pertarungan / combat choreography
+- `@sakuga` — High-end animation choreography (micro-shot, impact frame, slow-mo terkontrol)
+- `@singularity` — Digenerate pakai model Singularity (bukan fp8 standar)
 
 ### Condition
 - `@draft` — Belum di-test
@@ -39,6 +43,8 @@ Tag system untuk nyari prompt cepat via grep.
 - `@cafe`, `@sharing-food` - Cafe scene and taking turns sharing cake
 - `@mixed-media`, `@two-characters` - Live-action person with a stylized character
 - `@delia` - Delia, karakter anime manor (mantan MV, dipakai ulang di POV cooking)
+- `@denise` - Denise, counter fighter water/ice, lawan Delia di Battle Tide v3
+- `@battle-tidev3` - Seri Battle Tide v3 (3 klip x 15s, Delia vs Denise)
 
 ## Experiments
 
@@ -49,6 +55,9 @@ Tag system untuk nyari prompt cepat via grep.
 
 - [Delia Cook — POV Cooking 15s (working)](library/ref2va/pov/delia_cook_15s/prompt.md): `@ref2va`, `@pov`, `@cooking`, `@multi-ref`, `@turbo`, `@non-verbal`, `@anime`, `@vertical`, `@delia`, `@working`
 - [Delia Serve — POV Serve & Eat 15s (working)](library/ref2va/pov/delia_serve_15s/prompt.md): `@ref2va`, `@pov`, `@cooking`, `@multi-ref`, `@keyframe-completion`, `@turbo`, `@non-verbal`, `@anime`, `@vertical`, `@delia`, `@working`
+- [Battle Tide v3 — Part 1: First Contact (working)](library/ref2va/battle/delia_vs_denise_tidev3/part1_first_contact/prompt.md): `@ref2va`, `@battle`, `@battle-tidev3`, `@sakuga`, `@multi-ref`, `@singularity`, `@non-verbal`, `@anime`, `@landscape`, `@delia`, `@denise`, `@working`
+- [Battle Tide v3 — Part 2: The Arena Becomes a Weapon (working)](library/ref2va/battle/delia_vs_denise_tidev3/part2_arena_weapon/prompt.md): `@ref2va`, `@battle`, `@battle-tidev3`, `@sakuga`, `@multi-ref`, `@singularity`, `@non-verbal`, `@anime`, `@landscape`, `@delia`, `@denise`, `@working`
+- [Battle Tide v3 — Part 3: Phoenix and Leviathan (working)](library/ref2va/battle/delia_vs_denise_tidev3/part3_phoenix_leviathan/prompt.md): `@ref2va`, `@battle`, `@battle-tidev3`, `@sakuga`, `@multi-ref`, `@singularity`, `@non-verbal`, `@anime`, `@landscape`, `@delia`, `@denise`, `@working`
 
 ## Grep recipes
 
