@@ -1,5 +1,21 @@
 # CHANGELOG.md
 
+## 2026-09-19 — Viggle-Animate masuk library (7 prompt)
+
+- Tambah `library/ref2va/viggle/` — pipeline Viggle-Animate (motion transfer dari
+  driving video, jalan di `minimax_h3_ref2va_viggle_pruned_int8_convrot` + LoRA
+  `viggle_animate_dmd_lora_r64`, tanpa text prompt di H3)
+  - `generic_repaint_frame/` — resep generic PROMPT A/B/C + troubleshooting GPT Image,
+    quick guide chunked sampler, catatan sigma, cara kerja Viggle (status: working)
+  - `repaint_delia_vrm/`, `repaint_denise_vrm/`, `repaint_yonari_vrm/`,
+    `repaint_saki_vrm/`, `repaint_saki_liveaction_dance/`,
+    `sheet_plus_face_hand_saki/` (semua status: working)
+- **Catatan penting**: prompt Viggle dijalankan di **GPT Image** (image-to-image untuk
+  bikin reference frame), bukan di text encoder H3. Dijelaskan di tiap notes.
+- `type: viggle` baru; `mode: ref2va` (model-nya turunan ref2va)
+- `TAGS.md` — tag `@viggle`, `@repaint`, `@gpt-image`, `@motion-transfer`, `@video-to-video`,
+  `@saki`, `@yonari` + section Library
+
 ## 2026-09-19 — Battle Tide v3 (3 part) masuk library
 
 - Tambah `library/ref2va/battle/delia_vs_denise_tidev3/` — seri battle 3 klip x 15s
